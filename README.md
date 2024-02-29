@@ -1,2 +1,5 @@
-This repository use the model YOLOv5 from Ultralytics for the cube recognitation. \n
-For more info about YOLOv5: https://github.com/ultralytics/yolov5
+**IMPORTANT**
+
+This repository uses the model YOLOv5 from Ultralytics for the cube recognitation.
+
+More information about YOLOv5: https://github.com/ultralytics/yolov5
