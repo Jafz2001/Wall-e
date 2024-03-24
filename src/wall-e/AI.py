@@ -5,7 +5,6 @@
 
 
 import torch
-from matplotlib import pyplot as plt
 import numpy as np
 import cv2
 
@@ -14,7 +13,7 @@ path='src/wall-e/modelV4.pt'
 model = torch.hub.load("ultralytics/yolov5", "custom", path=path, force_reload=True)
 
 ##REAL TIME DETECTION
-cap = cv2.VideoCapture(0) #0 es camara, 'traffic.mp4 de ejemplo si es para un video'
+cap = cv2.VideoCapture(0)
 while cap.isOpened():
     ret, frame = cap.read()
     
